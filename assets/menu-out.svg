@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="26px" viewBox="0 0 10 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>menu-out</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Customers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Policy-Detail" transform="translate(-192.000000, -666.000000)">
+            <g id="menu-out" transform="translate(192.000000, 666.000000)">
+                <path d="M0,0 C5.71409818,1.2508188 10.0001548,6.46841008 10.0001548,12.7150002 C10.0001548,18.9615902 5.71409818,24.1791815 0,25.4300003 L0,0 Z" id="Oval" fill="#FFFFFF"></path>
+                <g id="stre-right" transform="translate(2.000000, 9.000000)" stroke="#D51F32" stroke-width="0.599999964" fill="#D51F32" fill-rule="nonzero">
+                    <path d="M0.673884479,8.22325581 L0,7.58671128 L2.70486043,4.11162791 L0,0.636544534 L0.673884479,0 L3.62645739,3.79384454 C3.76895865,3.9766922 3.76895865,4.24705251 3.62645739,4.42990017 L0.673884479,8.22325581 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

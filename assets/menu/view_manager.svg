@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu / Icons / view_manager</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-/-Icons-/-view_manager" fill-rule="nonzero" fill="#565656">
+            <g transform="translate(1.000000, 0.000000)" id="Shape">
+                <path d="M13.125,0 L0.875,0 C0.35,0 0,0.35 0,0.875 L0,2.625 C0,3.15 0.35,3.5 0.875,3.5 L13.125,3.5 C13.65,3.5 14,3.15 14,2.625 L14,0.875 C14,0.35 13.65,0 13.125,0 Z"></path>
+                <path d="M2.625,5.25 L0.875,5.25 C0.35,5.25 0,5.68 0,6.325 L0,14.925 C0,15.57 0.35,16 0.875,16 L2.625,16 C3.15,16 3.5,15.57 3.5,14.925 L3.5,6.325 C3.5,5.68 3.15,5.25 2.625,5.25 Z"></path>
+                <path d="M13.125,5.25 L6.125,5.25 C5.6,5.25 5.25,5.68 5.25,6.325 L5.25,14.925 C5.25,15.57 5.6,16 6.125,16 L13.125,16 C13.65,16 14,15.57 14,14.925 L14,6.325 C14,5.68 13.65,5.25 13.125,5.25 Z"></path>
+            </g>
+        </g>
+    </g>
+</svg>

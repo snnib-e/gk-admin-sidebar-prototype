@@ -1,0 +1,133 @@
+@import bourbon/bourbon
+
+//Base Flexbox
+=box($height, $width, $bgColor)
+  +box-sizing(border-box)
+  width: $width
+  height: $height
+  background-color: $bgColor
+  +display(flex)
+
+//Set on Parent for added control
+=flow($direction, $wrap)
+  +flex-direction($direction)
+  +flex-wrap($wrap)
+
+//Box Behaviour
+=box-flex($grow, $shrink, $basis)
+  +flex-grow($grow)
+  +flex-shrink($shrink)
+  +flex-basis($basis)
+
+=width-constraints ($min, $max)
+  max-width: $max
+  min-width: $min
+
+=height-constraints ($min, $max)
+  max-height: $max
+  min-height: $min
+
+=box-self($order, $alignSelf)
+  +order($order)
+  +align-self($alignSelf)
+
+=box-float($float)
+  @if $float == right
+    margin-left: auto
+  @else if $float == left
+    margin-right: auto
+
+//Box Mods
+=box-space($padding, $margin)
+  padding: $padding
+  margin: $margin
+//Box Shadow Lines
+=left-line($size, $color)
+  box-shadow: inset $size 0px 0px 0px $color
+=right-line($size, $color)
+  box-shadow: inset ($size - $size - $size) 0px 0px 0px$color
+=top-line($size, $color)
+  box-shadow: inset 0px $size 0px 0px $color
+=bottom-line($size, $color)
+  box-shadow: inset 0px ($size - $size - $size) 0px 0px $color
+
+//Box Positions
+=stretch-spaced
+  +align-items(stretch)
+  +justify-content(space-around)
+=stretch-spread
+  +align-items(stretch)
+  +justify-content(space-between)
+=stretch-left
+  +align-items(stretch)
+  +justify-content(flex-start)
+=stretch-center
+  +align-items(stretch)
+  +justify-content(center)
+=stretch-right
+  +align-items(stretch)
+  +justify-content(flex-end)
+
+=baseline-spaced
+  +align-items(baseline)
+  +justify-content(space-around)
+=baseline-spread
+  +align-items(baseline)
+  +justify-content(space-between)
+=baseline-left
+  +align-items(baseline)
+  +justify-content(flex-start)
+=baseline-center
+  +align-items(baseline)
+  +justify-content(center)
+=baseline-right
+  +align-items(baseline)
+  +justify-content(flex-end)
+
+=center-spaced
+  +align-items(center)
+  +justify-content(space-around)
+=center-spread
+  +align-items(center)
+  +justify-content(space-between)
+=center-left
+  +align-items(center)
+  +justify-content(flex-start)
+=center-center
+  +align-items(center)
+  +justify-content(center)
+=center-right
+  +align-items(center)
+  +justify-content(flex-end)
+
+=top-spaced
+  +align-items(flex-start)
+  +justify-content(space-around)
+=top-spread
+  +align-items(flex-start)
+  +justify-content(space-between)
+=top-left
+  +align-items(flex-start)
+  +justify-content(flex-start)
+=top-center
+  +align-items(flex-start)
+  +justify-content(center)
+=top-right
+  +align-items(flex-start)
+  +justify-content(flex-end)
+
+=bottom-spaced
+  +align-items(flex-end)
+  +justify-content(space-around)
+=bottom-spread
+  +align-items(flex-end)
+  +justify-content(space-between)
+=bottom-left
+  +align-items(flex-end)
+  +justify-content(flex-start)
+=bottom-center
+  +align-items(flex-end)
+  +justify-content(center)
+=bottom-right
+  +align-items(flex-end)
+  +justify-content(flex-end)

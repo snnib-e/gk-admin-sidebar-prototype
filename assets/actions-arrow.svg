@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="10px" viewBox="0 0 8 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>actions-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Actions" transform="translate(-67.000000, -11.000000)" fill-rule="nonzero" fill="#565656">
+            <g id="Group-3-Copy">
+                <g id="Group" transform="translate(13.000000, 9.000000)">
+                    <g id="action-arrow" transform="translate(54.000000, 1.000000)">
+                        <path d="M7.24982706,5.50001193 L0.999976147,1.12511628 C0.562486583,0.812623739 0,1.12511628 0,1.62510436 L0,10.3748956 C0,10.8748837 0.562486583,11.1873763 0.999976147,10.8748837 L7.24982706,6.49998807 C7.56231961,6.24999404 7.56231961,5.75000596 7.24982706,5.50001193 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu / Icons / notifications</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-/-Icons-/-notifications">
+            <g>
+                <rect id="Rectangle-22" x="0" y="0" width="16" height="16"></rect>
+                <path d="M8,15.6 C8.88,15.6 9.6,14.88 9.6,14 L6.4,14 C6.4,14.88 7.112,15.6 8,15.6 Z M12.8,10.8 L12.8,6.8 C12.8,4.344 11.488,2.288 9.2,1.744 L9.2,1.2 C9.2,0.536 8.664,0 8,0 C7.336,0 6.8,0.536 6.8,1.2 L6.8,1.744 C4.504,2.288 3.2,4.336 3.2,6.8 L3.2,10.8 L1.6,12.4 L1.6,13.2 L14.4,13.2 L14.4,12.4 L12.8,10.8 Z" id="Shape" fill="#565656" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

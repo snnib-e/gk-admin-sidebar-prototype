@@ -1,0 +1,468 @@
+@import "_mixins.scss";
+@import "_reset.css";
+@import "_box.sass";
+
+//Typefaces
+@include font-face("Hind Light", "../fonts/hind/Hind-Light");
+@include font-face("Hind Medium", "../fonts/hind/Hind-Medium");
+@include font-face("hind Regular", "../fonts/hind/Hind-Regular");
+@include font-face("Hind SemiBold", "../fonts/hind/Hind-SemiBold");
+@include font-face("Hind Bold", "../fonts/hind/Hind-Bold");
+
+//Colours
+$white: #FFFFFF;
+$gray1: #F8F8F8;
+$gray2: #F4F4F4;
+$gray3: #ECECEC;
+$gray4: #CFCFCF; //used with strokes
+$gray5: #A2A2A2;
+$gray6: #767676;
+$gray7: #565656;
+$gkred: #D51F32;
+
+//Common Sizes
+$p4: 0.25rem;
+$p8: 0.5rem;
+$p10: 0.625rem;
+$p12: 0.75rem;
+$p14: 0.875rem;
+$p16: 1rem;
+$p20: 1.25rem;
+$p24: 1.5rem;
+$p26: 1.625rem;
+$p28: 1.75rem;
+$p30: 1.875rem;
+$p32: 2rem;
+$p36: 2.25rem;
+$p40: 2.5rem;
+$p48: 3rem;
+$p52: 3.25rem;
+$p56: 3.5rem;
+
+//Icons
+body {
+    margin: 0 !important;
+}
+
+.icon-logo {
+    background: url(../assets/gk_logo.svg);
+    background-size: $p56 $p56;
+    width: $p56;
+    height: $p56;
+    margin: 0px auto;
+    margin-left: $p32;
+}
+
+.icon-dashboard {
+    background: url("../assets/menu/dashboard.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-customers {
+    background: url("../assets/menu/customer.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-authorization {
+    background: url("../assets/menu/authorization.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-notifications {
+    background: url("../assets/menu/notifications.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-rate-guide {
+    background: url("../assets/menu/rate_guide.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-view-manager {
+    background: url("../assets/menu/view_manager.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-help-centre {
+    background: url("../assets/menu/help_centre.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-country-config {
+    background: url("../assets/menu/country_config.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-audit-trail {
+    background: url("../assets/menu/audit_trail.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-data-manager {
+    background: url("../assets/menu/data_manager.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-settings {
+    background: url("../assets/menu/settings.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-customer-info {
+    background: url("../assets/menu/user_info.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+.icon-logout {
+    background: url("../assets/menu/logout.svg");
+    background-size: $p16 $p16;
+    width: $p16;
+    height: $p16;
+    margin-bottom: $p4;
+    margin-right: $p8;
+}
+
+//Settings
+div {
+    box-sizing: border-box;
+}
+
+html {
+    position: relative;
+    font-size: 16px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+body {
+    position: relative;
+    background: $gray1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    overflow-y: auto;
+    transition: all 0.3s ease;
+
+    //Font
+    font-family: "Hind Medium";
+    font-size: $p16;
+    line-height: $p16;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.wrapper {
+    @include box(inherit, inherit, transparent);
+}
+
+//--
+.home {
+    margin-bottom: $p28;
+    margin-top: $p24;
+    transition: all 0.4s cubic-bezier(0.82, 0.04, 0.25, 1);
+}
+
+#showLeft:focus {
+    outline: none;
+}
+
+.show-menu-toggle {
+    @include box(100vh, $p24, transparent);
+    @include flow(column, no-wrap);
+    @include stretch-spaced;
+
+    #showLeft {
+        background: url(../assets/menu-in.svg);
+        background-size: $p20 $p52;
+        width: $p20;
+        height: $p52;
+        background-repeat: no-repeat;
+        align-self: center;
+        border: none;
+    }
+
+    #showLeft.active {
+        background: url(../assets/menu-out.svg);
+        background-size: $p20 $p52;
+        width: $p20;
+        height: $p52;
+        background-repeat: no-repeat;
+        align-self: center;
+        border: none;
+    }
+}
+
+aside {
+    overflow: hidden;
+    padding: $p32;
+    padding-right: 0;
+    box-shadow: 1px 0 2px 0 #ECECEC, 2px 0 8px 0 #F4F4F4;
+
+    @include box(auto, 12rem, $white);
+    @include flow(column, no-wrap);
+    @include stretch-spread;
+
+    nav {
+        a {
+            display: flex;
+            align-items: center;
+            color: $gray7;
+            height: 2rem;
+            margin-left: -2rem;
+            padding-left: 2rem;
+        }
+
+        a.selected {
+            box-shadow: inset 4px 0px 0 0 $gkred;
+            color: $gkred;
+            font-family: "Hind SemiBold";
+
+            .icon-dashboard {
+                background: url("../assets/menu/selected/dashboard.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-customers {
+                background: url("../assets/menu/selected/customer.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-authorization {
+                background: url("../assets/menu/selected/authorization.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-notifications {
+                background: url("../assets/menu/selected/notifications.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-rate-guide {
+                background: url("../assets/menu/selected/rate_guide.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-view-manager {
+                background: url("../assets/menu/selected/view_manager.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-help-centre {
+                background: url("../assets/menu/selected/help_centre.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-country-config {
+                background: url("../assets/menu/selected/country_config.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-audit-trail {
+                background: url("../assets/menu/selected/audit_trail.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-data-manager {
+                background: url("../assets/menu/selected/data_manager.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-settings {
+                background: url("../assets/menu/selected/settings.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-customer-info {
+                background: url("../assets/menu/user_info.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+
+            .icon-logout {
+                background: url("../assets/menu/logout.svg");
+                background-size: $p16 $p16;
+                width: $p16;
+                height: $p16;
+                margin-bottom: $p4;
+                margin-right: $p8;
+            }
+        }
+    }
+
+    nav.main-menu {
+        width: 8rem;
+
+        span {
+            opacity: 1;
+            transition: all 0.6s cubic-bezier(0.46, 0.01, 0.09, 1);
+        }
+    }
+
+    nav.main-menu.active {
+        span {
+            opacity: 0;
+        }
+
+        .home {
+            padding: 0;
+            margin-left: -3.3rem;
+        }
+    }
+
+    .user-info {
+        width: 8rem;
+
+        #user-group {
+            color: $gray6;
+            font-size: $p14;
+        }
+
+        span {
+            opacity: 1;
+            transition: all 0.6s cubic-bezier(0.46, 0.01, 0.09, 1);
+        }
+
+        span#app-version {
+            font-size: $p14;
+            color: $gray6;
+            display: block;
+        }
+
+        section:first-child {
+            margin-bottom: $p16;
+        }
+    }
+
+    .user-info.active {
+        span {
+            opacity: 0;
+            display: none;
+        }
+    }
+}
+
+//temp
+.cbp-spmenu-left {
+    width: 12rem;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+    width: 5rem;
+}
+
+.cbp-spmenu-push {
+    width: 5rem;
+}
+
+.cbp-spmenu-push-toleft {
+    width: 12rem;
+}
+
+/* Sidebar Menu Transition */
+.cbp-spmenu,
+.cbp-spmenu-push {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="16px" viewBox="0 0 21 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>jamaica</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Customers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Policy-Detail" transform="translate(-224.000000, -24.000000)" fill-rule="nonzero">
+            <g id="Group-2" transform="translate(192.000000, 24.000000)">
+                <g id="Group-15" transform="translate(32.000000, 0.000000)">
+                    <g id="Group-10">
+                        <g id="jamaica">
+                            <polyline id="Shape" fill="#565656" points="0 14.2222222 0 1.77777778 8.53252687 8"></polyline>
+                            <polyline id="Shape" fill="#565656" points="20.4780645 14.2222222 20.4780645 1.77777778 11.9455376 8"></polyline>
+                            <path d="M20.4780645,0.888888889 C20.4780645,0.398222222 20.0962339,0 19.6248118,0 L18.7715591,0 L10.2390322,6.22222222 L1.70650537,0 L0.853252687,0 C0.381830577,0 0,0.398222222 0,0.888888889 L0,1.77777778 L8.53252687,8 L0,14.2222222 L0,15.1111111 C0,15.6017778 0.381830577,16 0.853252687,16 L1.70650537,16 L10.2390322,9.77777778 L18.7715591,16 L19.6248118,16 C20.0962339,16 20.4780645,15.6017778 20.4780645,15.1111111 L20.4780645,14.2222222 L11.9455376,8 L20.4780645,1.77777778 L20.4780645,0.888888889 Z" id="Shape" fill="#F4CE01"></path>
+                            <polygon id="Shape" fill="#00C39D" points="10.2390322 9.77777778 10.2390322 9.77777778 1.70650537 16 18.7715591 16"></polygon>
+                            <polygon id="Shape" fill="#00C39D" points="10.2390322 6.22222222 10.2390322 6.22222222 1.70650537 0 18.7715591 0"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

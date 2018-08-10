@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="9px" height="10px" viewBox="0 0 9 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>filter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Filter-Button" transform="translate(-50.000000, -11.000000)">
+            <g id="Group-3">
+                <g id="Group-5">
+                    <g id="Stacked-Group" transform="translate(12.000000, 9.000000)">
+                        <g id="filter" transform="translate(36.000000, 0.000000)">
+                            <rect id="Rectangle" x="0" y="0" width="12" height="14"></rect>
+                            <path d="M10.4375,2 L2.5625,2 C2.225,2 2,2.25 2,2.625 L2,3.875 C2,4.0625 2.05625,4.25 2.225,4.375 L5.375,7.3125 L5.375,11.375 C5.375,11.625 5.4875,11.875 5.7125,11.9375 C5.76875,12 5.88125,12 5.9375,12 C6.10625,12 6.21875,11.9375 6.33125,11.8125 L7.45625,10.5625 C7.56875,10.4375 7.625,10.3125 7.625,10.125 L7.625,7.3125 L10.775,4.375 C10.94375,4.25 11,4.0625 11,3.875 L11,2.625 C11,2.25 10.775,2 10.4375,2 Z" id="Shape" fill="#565656" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

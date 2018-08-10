@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="12px" viewBox="0 0 11 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>search</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Customers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-427.000000, -219.000000)" id="Group-2" fill-rule="nonzero" fill="#767676">
+            <g transform="translate(192.000000, 192.000000)">
+                <g id="Group-18">
+                    <g id="Group-13" transform="translate(24.000000, 17.000000)">
+                        <g id="Group-8" transform="translate(196.000000, 0.000000)">
+                            <g id="Group-4">
+                                <g id="search" transform="translate(15.000000, 10.000000)">
+                                    <path d="M8.73125,7.97647059 C9.35,7.12941176 9.69375,6.14117647 9.69375,5.01176471 C9.69375,2.25882353 7.5625,0 4.88125,0 C2.2,0 0,2.25882353 0,5.01176471 C0,7.76470588 2.2,10.0235294 4.88125,10.0235294 C5.98125,10.0235294 7.0125,9.67058824 7.76875,9.03529412 L9.83125,11.1529412 C9.96875,11.2941176 10.175,11.3647059 10.3125,11.3647059 C10.45,11.3647059 10.65625,11.2941176 10.79375,11.1529412 C11.06875,10.8705882 11.06875,10.4470588 10.79375,10.1647059 L8.73125,7.97647059 Z M4.88125,8.54117647 C2.95625,8.54117647 1.375,6.98823529 1.375,5.01176471 C1.375,3.03529412 2.95625,1.41176471 4.88125,1.41176471 C6.80625,1.41176471 8.3875,3.03529412 8.3875,5.01176471 C8.3875,6.98823529 6.80625,8.54117647 4.88125,8.54117647 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu / Icons / audit_trail</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-/-Icons-/-audit_trail" fill-rule="nonzero" fill="#565656">
+            <g id="loop-30">
+                <circle id="Oval" cx="3.73333333" cy="13.3333333" r="2.66666667"></circle>
+                <path d="M8.53333333,1.06666667 C6.53546667,1.06666667 4.64,1.8752 3.25546667,3.25546667 L0.96,0.96 L0.213333333,7.78666667 L7.04,7.04 L4.76266667,4.76266667 C5.75253333,3.77813333 7.10613333,3.2 8.53333333,3.2 C11.4741333,3.2 13.8666667,5.59253333 13.8666667,8.53333333 C13.8666667,11.4741333 11.4741333,13.8666667 8.53333333,13.8666667 L8.53333333,16 C12.6496,16 16,12.6506667 16,8.53333333 C16,4.416 12.6496,1.06666667 8.53333333,1.06666667 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

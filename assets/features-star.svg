@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>shape-star</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Feedback" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Policy-Detail" transform="translate(-237.000000, -722.000000)" fill-rule="nonzero" fill="#565656">
+            <g id="Group-2" transform="translate(192.000000, 24.000000)">
+                <g id="Group-8" transform="translate(44.000000, 337.000000)">
+                    <g id="Stacked-Group-2">
+                        <g id="Stacked-Group-5" transform="translate(0.000000, 359.000000)">
+                            <g id="Group-14">
+                                <g id="shape-star" transform="translate(0.000000, 2.000000)">
+                                    <path d="M16.144,5.439 L11.827,4.811 L9.9,0.9 C9.71364696,0.579405052 9.37082149,0.382145295 9,0.382145295 C8.62917851,0.382145295 8.28635304,0.579405052 8.1,0.9 L6.173,4.812 L1.856,5.439 C1.47887237,5.49308797 1.16524362,5.75676961 1.04718835,6.11900394 C0.929133084,6.48123828 1.02716456,6.8790835 1.3,7.145 L4.423,10.19 L3.686,14.49 C3.62172134,14.8651497 3.77598224,15.2442626 4.08392913,15.4679538 C4.39187602,15.6916451 4.80010867,15.7211251 5.137,15.544 L9,13.513 L12.861,15.542 C13.1978913,15.7191251 13.606124,15.6896451 13.9140709,15.4659538 C14.2220178,15.2422626 14.3762787,14.8631497 14.312,14.488 L13.575,10.188 L16.7,7.145 C16.9721422,6.87928862 17.0699882,6.4821977 16.9524522,6.12046684 C16.8349162,5.75873599 16.5223496,5.49499908 16.146,5.44 L16.144,5.439 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

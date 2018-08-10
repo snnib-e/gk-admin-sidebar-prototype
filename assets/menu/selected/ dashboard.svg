@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Menu / Selected Icons / dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu-/-Selected-Icons-/-dashboard" fill="#D51F32">
+            <g id="dashboard-16">
+                <polygon id="Path" points="0 8.88888889 7.11111111 8.88888889 7.11111111 0 0 0"></polygon>
+                <polygon id="Path" points="0 16 7.11111111 16 7.11111111 10.6666667 0 10.6666667"></polygon>
+                <polygon id="Path" points="8.88888889 16 16 16 16 7.11111111 8.88888889 7.11111111"></polygon>
+                <polygon id="Path" points="8.88888889 0 8.88888889 5.33333333 16 5.33333333 16 0"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

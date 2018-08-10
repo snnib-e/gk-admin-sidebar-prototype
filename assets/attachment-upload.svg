@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>attachment</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.2%" y="-1.9%" width="104.4%" height="105.4%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.104308197 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Customers" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Notes-Details" transform="translate(-776.000000, -414.000000)">
+            <g id="Group-7-Copy-3" filter="url(#filter-1)" transform="translate(485.000000, 372.000000)">
+                <g id="Stacked-Group" transform="translate(24.000000, 46.000000)">
+                    <g id="attachment" transform="translate(275.000000, 0.000000)">
+                        <g id="Group-5">
+                            <rect id="Rectangle" fill="#ECECEC" x="0" y="0" width="20" height="20" rx="2.5"></rect>
+                            <g id="attach-86" transform="translate(6.250000, 5.000000)" stroke="#767676" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2.8125,3.4375 L2.8125,5.9375 C2.8125,6.628125 3.371875,7.1875 4.0625,7.1875 L4.0625,7.1875 C4.753125,7.1875 5.3125,6.628125 5.3125,5.9375 L5.3125,2.8125 C5.3125,1.431875 4.193125,0.3125 2.8125,0.3125 L2.8125,0.3125 C1.431875,0.3125 0.3125,1.431875 0.3125,2.8125 L0.3125,6.25 C0.3125,8.14875 1.85125,9.6875 3.75,9.6875 L3.75,9.6875 C5.64875,9.6875 7.1875,8.14875 7.1875,6.25 L7.1875,2.8125" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

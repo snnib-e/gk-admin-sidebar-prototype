@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>search-large</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Search-/-Placeholder" fill-rule="nonzero" fill="#565656">
+            <g id="Search-Prompt">
+                <g id="Search-Field">
+                    <g id="search-large">
+                        <path d="M6.69770049,14 C3.00439708,14 0,10.86 0,7 C0,3.14 3.00439708,0 6.69770049,0 C10.3910039,0 13.395401,3.14 13.395401,7 C13.395401,10.86 10.3910039,14 6.69770049,14 Z M6.69770049,2 C4.05976331,2 1.91362871,4.243 1.91362871,7 C1.91362871,9.757 4.05976331,12 6.69770049,12 C9.33563766,12 11.4817723,9.757 11.4817723,7 C11.4817723,4.243 9.33563766,2 6.69770049,2 Z" id="Shape"></path>
+                        <path d="M15.0286831,14.293 L11.6455242,10.7571429 C11.2522735,11.2861429 10.7987435,11.7601429 10.2925887,12.1711429 L13.6757476,15.707 C13.8623264,15.902 14.1072709,16 14.3522153,16 C14.5971598,16 14.8421043,15.902 15.0286831,15.707 C15.4027975,15.316 15.4027975,14.684 15.0286831,14.293 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
